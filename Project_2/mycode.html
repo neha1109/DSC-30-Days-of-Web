@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>My 1st Project</title>
+      <style>
+          body{
+              margin: 0px;
+              padding: 0px;
+              background-image: url("image.jpg");
+              background-size:cover;
+          }
+          h1{color:maroon;
+             text-align:center;
+             font-family: fantasy;
+             
+          }
+        table, th, td {
+          border: 2px solid black;
+          border-collapse:separate;
+          background-color:white;
+        }
+        td {
+          padding: 5px;
+          text-align: left;
+          font-family: cursive;
+          background-color:pink;
+          color:olive;
+        }
+        th {
+         background-color:white;
+          color:navy;
+          font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+        footer {
+          text-align: center;
+          padding: 3px;
+          background-color:tomato;
+          color: white;
+}
+        form{
+          font-family:cursive;
+          color:black;
+          font-style: italic;
+          
+        }
+        input{
+          font-style: italic;
+        }
+        img {
+          border: 4px solid black;
+          border-radius: 50%;
+          padding: 5px;
+          width: 300px;
+        }
+        .center {
+           display: block;
+           margin-left: auto;
+           margin-right: auto;
+           width: 25%;
+        }
+          
+        figcaption{
+          text-align:center;
+          font-family: cursive;
+        }
+        
+        
+
+        
+        </style>
+   </head>
+	
+   <body>
+       <h1> Here is my Portfolio</h1>
+       <form>
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="Neha"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value ="Dubey"><br>
+            <label for="mail">EmailId:</label><br>
+            <input type="email" id="mail" name="mail" value ="randomgirl@gmail.com"><br>
+            <label for="phone">Contact Number:</label><br>
+            <input type="number" id="phone" name="phone" value ="9179200848"><br>
+            <input type="submit" value="Done">
+            <input type="reset">
+
+          </form>
+      </form>
+      <table >
+        <caption><h3>Favaroite Songs</h3></caption>
+        <tr>
+            <th>Songs</th>
+            <th>Singers</th>
+          </tr>
+        
+        <tr>
+            <td> Perfect </td>
+            <td>Ed sheeran</td>
+
+        </tr>
+        <tr>
+          <td> Faded </td>
+          <td> Alan Walker</td>
+
+        </tr>
+        <tr>
+          <td> Blank Space </td>
+          <td> Taylor Swift </td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <figure>
+      <img src="my favourite singer.jpg" alt="SINGER IMAGE" class="center">
+      <figcaption><strong>MY FAVOURITE SINGER</strong></figcaption>
+    </figure> 
+    <center>
+      <video width="320" height="240" controls>
+      <source src="ed-sheeran-perfect.mp4" type="video/ogg">
+      </video>
+     </center>
+     <footer>This page belongs to me!!</footer>
+
+   </body>
+	
+</html>
